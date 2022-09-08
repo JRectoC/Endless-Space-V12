@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" width="168" height="168" resDensity="480" useVariableUpdater="DateTime.Minute">
+
+
+
+	<VariableBinders>
+		<ContentProviderBinder uri="content://weather/actualWeatherData/1" columns="weather_type,temperature" countName="hasweather">
+			<Variable name="weather_temperature" type="number" column="temperature"/>
+			<Variable name="weather_id" type="number" column="weather_type"/>
+			<Trigger>
+				<VariableCommand name="weather_id" expression="ifelse(#weather_id}25||#weather_id{0,0, (#weather_id}=4**#weather_id{=6||#weather_id}=8**#weather_id{=11||#weather_id==25),4,#weather_id}=13**#weather_id{=17,13 ,#weather_id}=18**#weather_id{=21||#weather_id==23,18,#weather_id)"/>
+			</Trigger>
+		</ContentProviderBinder>
+	</VariableBinders>
+	
+	<Image x="84" y="84" src="weather_res/icon_bg.png" align="center" alignV="center"/>
+	<Image x="60" y="70" scale="1.4" src="weather_res/weather.png" align="center" alignV="center" srcid="#weather_id"/>
+	<Text x="75" y="125" align="center" alignV="center" color="#ffffff" size="35" shadowDx="4" shadowDy="6" shadowRadius="9" shadowColor="#f600ff" bold="true" textExp="#weather_temperature+'°c'"/>
+	
+</Icon>

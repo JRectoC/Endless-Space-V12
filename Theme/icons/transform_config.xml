@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IconTransform>
+<IconFilters>
+	<Filter name="Levels"/>
+	<Filter name="Hsl"/>
+	<Filter name="Edges" />
+	<Filter name="GrayScale">
+		<Param name="BlackColor" value="#ffffff" />
+		<Param name="WhiteColor" value="#00FFFFFF" />
+	</Filter>    
+</IconFilters>
+</IconTransform>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone='yes' ?>
+
+<MIUI_Theme_Values>
+  <dimen name="config_icon_width">75dp</dimen>
+  <dimen name="config_icon_height">75dp</dimen>
+  <dimen name="folder_preview_width">60dp</dimen>
+  <dimen name="folder_preview_height">60dp</dimen>
+  <dimen name="workspace_icon_text_size">14sp</dimen>
+  <color name="icon_title_text_dark">#FFFFFFFF</color>
+  <color name="checkbox_btn_on_background_color_light">#fc00366b</color>
+  <color name="checkbox_btn_on_background_color_light" package="miui">#ff0d84ff</color>
+  <color name="recent_menu_bg_color">#9CB700AA</color>
+  <dimen name="folder_preview_height">45.0dp</dimen>
+  <color name="txt_memory_info_color">#FFFFFFFF</color>
+  <color name="recent_tv_small_window_background_color">#9CB700AA</color>
+  <color name="task_manager_no_recents_text">#FFFFFFFF</color>
+  <color name="task_manager_text">#FFFFFFFF</color>
+  <color name="icon_title_text">#FFFFFFFF</color>
+  <color name="icon_title_text_shadow_light">#FFFD5AFF</color>
+  <color name="recents_tv_small_window_text_color">#FFFFFFFF</color>
+  <color name="search_bar_stroke_color_light">#1c000000</color>
+  <color name="search_bar_bg_color_light">#17ffffff</color>
+  <color name="icon_message_text">#FFFFFFFF</color>
+  <color name="recent_tick_anim_color">#ff8c8c8c</color>
+  <dimen name="folder_preview_width">45.0dp</dimen>
+  <color name="search_bar_stroke_color_dark">#03ff0000</color>
+  <color name="icon_title_text_shadow">#FFFD5AFF</color>
+  <color name="search_bar_bg_color_dark">#1aff0000</color>
+  <dimen name="folder_preview_item_padding">0.5dp</dimen>
+</MIUI_Theme_Values>
